@@ -1,4 +1,5 @@
 import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class AddTwoNumbers {
@@ -26,8 +27,19 @@ public class AddTwoNumbers {
                 //System.out.println(firstNumber + " / " + secondNumber + " = " + divideNumbers(firstNumber, secondNumber));
                 //System.out.println(firstNumber + " - " + secondNumber + " = " + subtractNumbers(firstNumber, secondNumber));
                 //System.out.println(firstNumber + " mod " + secondNumber + " = " + remainderFromNumbers(firstNumber, secondNumber));
+// Task 4
+                /*int[] myNum = {5,6,7,12,-5,32,43};
+                System.out.println(Arrays.stream(myNum).sum());*/
+// Task 5
 
-           }
+                /*int[] myNum = {5,6,7,12,-5,32,43,6,12};
+                for (int i = 0; i < myNum.length; i++) {
+                    for (int a = i + 1; a < myNum.length; a++) {
+                        if (myNum[i] == myNum[a])
+                            System.out.println(myNum[i]);*/
+                    }
+                }
+            }
                 /*public static int addNumbers ( int firstNumber, int secondNumber){
                  return firstNumber + secondNumber;
                 }*/
@@ -43,6 +55,8 @@ public class AddTwoNumbers {
                 /*public static int remainderFromNumbers ( int firstNumber, int secondNumber){
                  return firstNumber % secondNumber;
                 }*/
+
+
 
 
 
