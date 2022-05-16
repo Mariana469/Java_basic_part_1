@@ -37,7 +37,7 @@ public class AddTwoNumbers {
                     for (int a = i + 1; a < myNum.length; a++) {
                         if (myNum[i] == myNum[a])
                             System.out.println(myNum[i]);*/
-                    }
+                   // }
                 }
             }
                 /*public static int addNumbers ( int firstNumber, int secondNumber){
@@ -60,6 +60,6 @@ public class AddTwoNumbers {
 
 
 
-}
+//}
 
 
