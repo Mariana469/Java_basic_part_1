@@ -1,7 +1,15 @@
+package ClassesAndObjects;
+
 public class Computer {
-    String Brand;
-    int ScreenSize;
-    public (String brand, int ScreenSize, int CoresNumber, String Type) {
-     //   Computer Obj1  = new Computer();
+    String brand;
+    int screenSize;
+    int numberOfCores;
+    String type;
+
+    void printOnScreen (String brand, int screenSize) {
+        System.out.println( "Brand: " + brand);
+        System.out.println( "Screen Size: " + screenSize);
+
+    };
     }
-}
+
