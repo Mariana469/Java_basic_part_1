@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package Task2FromPart2;
 
 public class Computer {
     String brand;
@@ -10,6 +10,6 @@ public class Computer {
         System.out.println( "Brand: " + brand);
         System.out.println( "Screen Size: " + screenSize);
 
-    };
+    }
     }
 

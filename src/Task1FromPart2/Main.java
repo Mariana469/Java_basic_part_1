@@ -1,3 +1,5 @@
+package Task1FromPart2;
+
 public class Main {
     static void concatinateString() {
         String s1 = "PHP Exercises and";
